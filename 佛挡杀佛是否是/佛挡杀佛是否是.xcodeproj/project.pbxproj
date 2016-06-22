@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489B52531D1A2B66002002CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489B52521D1A2B66002002CC /* main.m */; };
+		489B52561D1A2B66002002CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489B52551D1A2B66002002CC /* AppDelegate.m */; };
+		489B52591D1A2B66002002CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489B52581D1A2B66002002CC /* ViewController.m */; };
+		489B525C1D1A2B66002002CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489B525A1D1A2B66002002CC /* Main.storyboard */; };
+		489B525E1D1A2B66002002CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489B525D1D1A2B66002002CC /* Assets.xcassets */; };
+		489B52611D1A2B66002002CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489B525F1D1A2B66002002CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		489B524E1D1A2B66002002CC /* 佛挡杀佛是否是.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "佛挡杀佛是否是.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489B52521D1A2B66002002CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		489B52541D1A2B66002002CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		489B52551D1A2B66002002CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		489B52571D1A2B66002002CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		489B52581D1A2B66002002CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		489B525B1D1A2B66002002CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		489B525D1D1A2B66002002CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489B52601D1A2B66002002CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		489B52621D1A2B66002002CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489B524B1D1A2B66002002CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489B52451D1A2B66002002CC = {
+			isa = PBXGroup;
+			children = (
+				489B52501D1A2B66002002CC /* 佛挡杀佛是否是 */,
+				489B524F1D1A2B66002002CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489B524F1D1A2B66002002CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489B524E1D1A2B66002002CC /* 佛挡杀佛是否是.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489B52501D1A2B66002002CC /* 佛挡杀佛是否是 */ = {
+			isa = PBXGroup;
+			children = (
+				489B52541D1A2B66002002CC /* AppDelegate.h */,
+				489B52551D1A2B66002002CC /* AppDelegate.m */,
+				489B52571D1A2B66002002CC /* ViewController.h */,
+				489B52581D1A2B66002002CC /* ViewController.m */,
+				489B525A1D1A2B66002002CC /* Main.storyboard */,
+				489B525D1D1A2B66002002CC /* Assets.xcassets */,
+				489B525F1D1A2B66002002CC /* LaunchScreen.storyboard */,
+				489B52621D1A2B66002002CC /* Info.plist */,
+				489B52511D1A2B66002002CC /* Supporting Files */,
+			);
+			path = "佛挡杀佛是否是";
+			sourceTree = "<group>";
+		};
+		489B52511D1A2B66002002CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				489B52521D1A2B66002002CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489B524D1D1A2B66002002CC /* 佛挡杀佛是否是 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489B52651D1A2B66002002CC /* Build configuration list for PBXNativeTarget "佛挡杀佛是否是" */;
+			buildPhases = (
+				489B524A1D1A2B66002002CC /* Sources */,
+				489B524B1D1A2B66002002CC /* Frameworks */,
+				489B524C1D1A2B66002002CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "佛挡杀佛是否是";
+			productName = "佛挡杀佛是否是";
+			productReference = 489B524E1D1A2B66002002CC /* 佛挡杀佛是否是.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489B52461D1A2B66002002CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MQ;
+				TargetAttributes = {
+					489B524D1D1A2B66002002CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 489B52491D1A2B66002002CC /* Build configuration list for PBXProject "佛挡杀佛是否是" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489B52451D1A2B66002002CC;
+			productRefGroup = 489B524F1D1A2B66002002CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489B524D1D1A2B66002002CC /* 佛挡杀佛是否是 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489B524C1D1A2B66002002CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489B52611D1A2B66002002CC /* LaunchScreen.storyboard in Resources */,
+				489B525E1D1A2B66002002CC /* Assets.xcassets in Resources */,
+				489B525C1D1A2B66002002CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489B524A1D1A2B66002002CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489B52591D1A2B66002002CC /* ViewController.m in Sources */,
+				489B52561D1A2B66002002CC /* AppDelegate.m in Sources */,
+				489B52531D1A2B66002002CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		489B525A1D1A2B66002002CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489B525B1D1A2B66002002CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		489B525F1D1A2B66002002CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489B52601D1A2B66002002CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489B52631D1A2B66002002CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		489B52641D1A2B66002002CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489B52661D1A2B66002002CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "佛挡杀佛是否是/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mq.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		489B52671D1A2B66002002CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "佛挡杀佛是否是/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mq.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489B52491D1A2B66002002CC /* Build configuration list for PBXProject "佛挡杀佛是否是" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489B52631D1A2B66002002CC /* Debug */,
+				489B52641D1A2B66002002CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489B52651D1A2B66002002CC /* Build configuration list for PBXNativeTarget "佛挡杀佛是否是" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489B52661D1A2B66002002CC /* Debug */,
+				489B52671D1A2B66002002CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489B52461D1A2B66002002CC /* Project object */;
+}
